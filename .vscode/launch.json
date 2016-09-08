@@ -6,7 +6,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "pythonPath": "C:/Users/bcollins5/AppData/Local/Programs/Python/Python35-32/python.exe",
+            "pythonPath": "${config.python.pythonPath}",
             "program": "${file}",
             "debugOptions": [
                 "WaitOnAbnormalExit",
@@ -18,13 +18,14 @@
             "name": "Python Console App",
             "type": "python",
             "request": "launch",
-            "stopOnEntry": true,
-            "pythonPath": "C:/Users/bcollins5/AppData/Local/Programs/Python/Python35-32/python.exe",
+            "stopOnEntry": false,
+            "pythonPath": "${config.python.pythonPath}",
             "program": "${file}",
             "externalConsole": true,
             "debugOptions": [
                 "WaitOnAbnormalExit",
-                "WaitOnNormalExit"
+                "WaitOnNormalExit",
+                "RedirectOutput"
             ]
         },
         {

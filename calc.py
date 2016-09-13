@@ -118,7 +118,7 @@ grade_change = ((grade_2-grade_1)/grade_1)
 percent_increase = (grade_change*100)
 
 
-print('Rise %5.1f%%' % percent_increase)
+print('Rise %04.1f%%' % percent_increase)
 
 
 #rounded_percent_increase=round(percent_increase,2)

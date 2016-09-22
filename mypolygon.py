@@ -86,7 +86,7 @@ square(teresa)
 
 turtle.mainloop()
 '''
-
+'''
 #  Yin & Yang with some color
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -118,14 +118,14 @@ def yin(radius, color1, color2):
 
 def main():
     reset()
-    yin(200, "black", "white")
-    yin(200, "white", "black")
+    yin(200, "pink", "white")
+    yin(200, "white", "pink")
     ht()
     return "Done!"
 
 if __name__ == '__main__':
     main()
-    #mainloop()
+  #  mainloop()
 
 
 
@@ -211,16 +211,16 @@ jerry.rt(270)
 
 
 
-turtle.mainloop()
 
 
-'''def polygon(t, n, length):
+
+def polygon(t, n, length):
     angle = 360 / n
     for i in range(n):
         t.fd(length)
         t.lt(angle)
 
 
-polygon(jerry, 7, 70)'''
-
+polygon(jerry, 7, 70)
+'''
 

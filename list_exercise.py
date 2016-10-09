@@ -9,10 +9,10 @@
 #     """
 
 
-#     total = 0 
-#     for i in t:
-#         total += sum (i)
-#     return total
+    total = 0 
+    for i in t:
+        total += sum (i)
+    return total
 
 
 

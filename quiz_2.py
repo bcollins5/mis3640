@@ -103,7 +103,18 @@ def print_hist(data):
 
 
 
-    key_list = data.keys()
-    print('For testing key list', key_list)
-    key_list.sort()
-    print('For testing key list after sorting',)
+key_list = data.keys()
+
+print('For testing key list', key_list)
+
+key_list.sort()
+
+print('For testing key list after sorting', key_list)
+
+for key in key_list:
+    num_ast = data.get(key)
+    print('%s: ' %(key) + num_ast * '*')
+
+letter_counts={'C': 6, 'A': 3, 'B': 10, 'Z': 8}    
+
+print_hist(letter_counts)
